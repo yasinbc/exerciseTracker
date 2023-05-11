@@ -1,0 +1,26 @@
+{
+  "name": "fcc_backend_project4",
+  "version": "0.0.4",
+  "description": "FCC Backend Project 4: Exercise Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "RUN_MODE=development nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
